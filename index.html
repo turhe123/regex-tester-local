@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- SEO:START — the builder rewrites title / description / keywords for search (see CLAUDE.md) -->
+  <title>Regex Tester with Explanation – Free, Private, In Your Browser</title>
+  <meta name="description" content="Test JavaScript regular expressions live with highlighted matches, capture groups, replace preview and a plain-English explanation. Private and offline.">
+  <meta name="keywords" content="regex tester, regex online, regex101 alternative, test regular expression, regex match highlighter, javascript regex tester, regex replace tester, regex explainer">
+  <!-- SEO:END -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e0f14" media="(prefers-color-scheme: dark)">
+  <link rel="canonical" href="https://turhe123.github.io/regex-tester-local/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Regex Tester with Explanation – Free, Private, In Your Browser">
+  <meta property="og:description" content="Test regular expressions live with highlighted matches and groups in your browser, no account. Free and open source, nothing is uploaded, works offline.">
+  <meta property="og:url" content="https://turhe123.github.io/regex-tester-local/">
+  <meta property="og:image" content="https://turhe123.github.io/regex-tester-local/docs/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="Regex Tester with Explanation">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Regex Tester with Explanation – Free, Private, In Your Browser">
+  <meta name="twitter:description" content="Test regular expressions live with highlighted matches and groups in your browser, no account. Free and open source, nothing is uploaded, works offline.">
+  <meta name="twitter:image" content="https://turhe123.github.io/regex-tester-local/docs/og.png">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Regex Tester with Explanation",
+    "alternateName": "Regex Tester with Explanation – Free, Private, In Your Browser",
+    "description": "Test regular expressions live with highlighted matches and groups in your browser, no account. Free and open source, nothing is uploaded, works offline.",
+    "url": "https://turhe123.github.io/regex-tester-local/",
+    "image": "https://turhe123.github.io/regex-tester-local/docs/og.png",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript. Works offline after the first visit.",
+    "isAccessibleForFree": true,
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "license": "https://opensource.org/licenses/MIT",
+    "softwareVersion": "1.0.0",
+    "author": { "@type": "Person", "name": "Or Davidai Bachar", "url": "https://github.com/turhe123" },
+    "sameAs": ["https://github.com/turhe123/regex-tester-local"]
+  }
+  </script>
+  
+  <!-- Page views are counted with GoatCounter: no cookies, no personal data, open source. -->
+  <script data-goatcounter="https://turhe123.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#tool">Skip to the tool</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="./" aria-label="Regex Tester with Explanation home">
+        <img class="brand__icon" src="icon.svg" alt="" width="28" height="28">
+        <span class="brand__name">Regex Tester with Explanation</span>
+      </a>
+      <nav class="site-nav" aria-label="Page">
+        <a href="#how">How it works</a>
+        <a href="#faq">FAQ</a>
+        <a href="https://github.com/turhe123/regex-tester-local" rel="noopener">GitHub</a>
+        <a href="https://turhe123.github.io/web-tools/" rel="noopener" class="site-nav__more">More tools</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch color theme" title="Switch color theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container">
+      <!-- HERO:START — the builder may refine the headline and promise; keep the trust badges -->
+      <h1 class="hero__title">Regex Tester with Explanation</h1>
+      <p class="hero__lead">Test regular expressions live with highlighted matches and groups in your browser, no account.</p>
+      <!-- HERO:END -->
+      <ul class="badges" aria-label="Why this tool is safe to use">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v6c0 4 3 7 7 9 4-2 7-5 7-9V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m9 12 2 2 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Runs in your browser, files never leave your device</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 12h8M12 8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Free, open source, no account, no ads</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 9.5 17 19 7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Works offline after the first visit</li>
+      </ul>
+    </section>
+
+    <section class="container" id="tool" aria-labelledby="tool-title">
+      <div class="tool-card">
+        <!-- TOOL:START — the builder replaces everything between these markers with the real tool UI -->
+        <h2 id="tool-title" class="visually-hidden">Regex tester</h2>
+        <div class="rx-top">
+          <div class="field">
+            <label for="pattern">Regular expression <span class="field__hint">JavaScript flavor · press <kbd class="kbd">/</kbd> to focus</span></label>
+            <div class="rx-pattern" id="pattern-box">
+              <span class="rx-slash" aria-hidden="true">/</span>
+              <input id="pattern" type="text" spellcheck="false" autocomplete="off" autocapitalize="off" autocorrect="off" aria-describedby="pattern-error" placeholder="e.g. order (\d+)">
+              <span class="rx-slash" aria-hidden="true">/</span><span class="rx-flags-text" id="flags-text" aria-hidden="true">g</span>
+            </div>
+            <p class="rx-error" id="pattern-error" aria-live="polite" hidden></p>
+          </div>
+          <fieldset class="rx-flags">
+            <legend class="field__label">Flags</legend>
+            <div class="rx-flags__list">
+              <label class="rx-flag" title="global: find every match"><input type="checkbox" id="flag-g" value="g" checked><span aria-hidden="true">g</span><span class="visually-hidden">g, global: find every match</span></label>
+              <label class="rx-flag" title="ignore case"><input type="checkbox" id="flag-i" value="i"><span aria-hidden="true">i</span><span class="visually-hidden">i, ignore case</span></label>
+              <label class="rx-flag" title="multiline: ^ and $ match at every line"><input type="checkbox" id="flag-m" value="m"><span aria-hidden="true">m</span><span class="visually-hidden">m, multiline</span></label>
+              <label class="rx-flag" title="dotAll: . also matches line breaks"><input type="checkbox" id="flag-s" value="s"><span aria-hidden="true">s</span><span class="visually-hidden">s, dot matches line breaks</span></label>
+              <label class="rx-flag" title="unicode: code points, \p{…} and emoji"><input type="checkbox" id="flag-u" value="u"><span aria-hidden="true">u</span><span class="visually-hidden">u, unicode</span></label>
+              <label class="rx-flag" title="sticky: only match at lastIndex"><input type="checkbox" id="flag-y" value="y"><span aria-hidden="true">y</span><span class="visually-hidden">y, sticky</span></label>
+            </div>
+          </fieldset>
+        </div>
+        <div class="rx-bar">
+          <div class="rx-ready" id="ready" role="group" aria-label="Ready patterns"><span class="rx-ready__label">Try:</span></div>
+          <div class="rx-actions">
+            <button class="btn btn--small" type="button" id="cheat-open" aria-haspopup="dialog" aria-controls="cheat">Cheat sheet</button>
+            <button class="btn btn--small" type="button" id="share" title="Copies a link with the pattern in the # fragment, which is never sent to a server">Copy share link</button>
+            <button class="btn btn--small" type="button" id="copy-literal" title="Ctrl or Cmd + Enter">Copy as /literal/</button>
+          </div>
+        </div>
+        <div class="field">
+          <div class="row row--between rx-text-head">
+            <label for="text">Test text</label>
+            <div class="rx-file" id="dropzone" tabindex="0" role="button" aria-label="Open a text file or drop it here">
+              <label class="visually-hidden" for="file-input">Open a text file</label>
+              <input class="dropzone__input" id="file-input" type="file" multiple accept=".txt,.log,.csv,.tsv,.json,.md,.xml,.html,.yaml,.yml,.srt,.vtt,.js,.css,.ini,.conf,text/*" tabindex="-1">
+              <span aria-hidden="true">Open or drop a text file</span>
+            </div>
+          </div>
+          <div class="hl" id="hl">
+            <div class="hl__backdrop" id="highlights" aria-hidden="true"></div>
+            <textarea id="text" class="hl__input" spellcheck="false" autocomplete="off" autocapitalize="off" aria-describedby="text-hint"></textarea>
+          </div>
+          <p class="field__hint" id="text-hint"></p>
+        </div>
+        <div class="progress rx-progress" id="progress" role="progressbar" aria-label="Matching" hidden><span></span></div>
+        <div class="results" id="results">
+          <div class="rx-summary result" id="summary" aria-live="polite"></div>
+          <div id="file-alert"></div>
+          <div id="run-alert"></div>
+          <div class="tabs" role="tablist" aria-label="Result views">
+            <button class="tab" type="button" role="tab" id="tab-matches" aria-controls="panel-matches" aria-selected="true">Matches</button>
+            <button class="tab" type="button" role="tab" id="tab-explain" aria-controls="panel-explain" aria-selected="false" tabindex="-1">Explanation</button>
+            <button class="tab" type="button" role="tab" id="tab-split" aria-controls="panel-split" aria-selected="false" tabindex="-1">Split</button>
+          </div>
+          <div class="rx-panel" role="tabpanel" id="panel-matches" aria-labelledby="tab-matches" tabindex="0"></div>
+          <div class="rx-panel" role="tabpanel" id="panel-explain" aria-labelledby="tab-explain" tabindex="0" hidden></div>
+          <div class="rx-panel" role="tabpanel" id="panel-split" aria-labelledby="tab-split" tabindex="0" hidden></div>
+        </div>
+        <div class="rx-replace">
+          <div class="field">
+            <label for="replace">Replace with <span class="field__hint">use $1, $&lt;name&gt;, $&amp; for the whole match</span></label>
+            <input id="replace" type="text" class="mono" spellcheck="false" autocomplete="off" autocapitalize="off" placeholder="e.g. Order #$1">
+          </div>
+          <div class="field">
+            <span class="field__label" id="replace-output-label">Replaced text</span>
+            <pre class="code rx-output" id="replace-output" aria-labelledby="replace-output-label"></pre>
+          </div>
+          <div class="row">
+            <button class="btn btn--primary" type="button" id="download-replaced">Download replaced.txt</button>
+            <button class="btn" type="button" id="copy-replaced">Copy replaced text</button>
+            <button class="btn" type="button" id="download-csv">Download matches.csv</button>
+          </div>
+        </div>
+        <dialog class="sheet" id="cheat" aria-labelledby="cheat-title">
+          <div class="sheet__head">
+            <h3 id="cheat-title">Cheat sheet</h3>
+            <button class="btn btn--small btn--ghost" type="button" id="cheat-close">Close</button>
+          </div>
+          <div class="sheet__body cheat" id="cheat-body"><p class="field__hint">Click a token to insert it at the cursor.</p></div>
+        </dialog>
+        <!-- TOOL:END -->
+      </div>
+    </section>
+
+    <section class="container section" id="how" aria-labelledby="how-title">
+      <h2 id="how-title" class="section__title">How it works</h2>
+      <!-- HOW:START — three honest steps for this tool -->
+      <ol class="steps">
+        <li><strong>Type a pattern and flags.</strong> Write a JavaScript regular expression, toggle g, i, m, s, u or y, or start from a ready pattern or the cheat sheet.</li>
+        <li><strong>Paste your test text.</strong> Matches light up as you type, the match list shows every index, length and group, and the explanation spells out each token.</li>
+        <li><strong>Replace and take it with you.</strong> Write a replacement with $1 or $&lt;name&gt;, then copy or download the result, or copy the pattern as a /literal/.</li>
+      </ol>
+      <!-- HOW:END -->
+    </section>
+
+    <section class="container section" id="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title" class="section__title">Questions, answered</h2>
+      <!-- FAQ:START — 4 to 6 questions; keep the privacy, offline and AI answers -->
+      <details class="faq" open>
+        <summary>Is my pattern or test text uploaded anywhere?</summary>
+        <p>No. Regex Tester with Explanation runs entirely in your browser. Your pattern and text stay in memory on your device, are matched by your browser's own engine, and are never sent to a server, so pasting real log lines is safe. The share link keeps the pattern after the # sign, a part of the address browsers never send to any server. You can disconnect from the internet and it keeps working.</p>
+      </details>
+      <details class="faq">
+        <summary>Which regex flavor does it test?</summary>
+        <p>JavaScript (ECMAScript), the one used by browsers and Node.js, because matching runs on the built-in RegExp engine. PCRE-only features such as possessive quantifiers, atomic groups, recursion or \A and \Z are not supported and show an error. Lookbehind works in current browsers but not in some older Safari versions.</p>
+      </details>
+      <details class="faq">
+        <summary>What happens if my pattern is too slow?</summary>
+        <p>Matching runs in a background worker. If a job takes longer than about one second, usually because of nested quantifiers like (a+)+ on text that almost matches, the worker is stopped and a warning appears. The page stays responsive, so you can fix the pattern straight away.</p>
+      </details>
+      <details class="faq">
+        <summary>Is it really free?</summary>
+        <p>Yes. It is open source under the MIT license, with no account, no limits and no ads. If it saves you a paid subscription, you can say thanks on Ko-fi.</p>
+      </details>
+      <details class="faq">
+        <summary>Does it work offline?</summary>
+        <p>Yes. After your first visit the page is cached by a service worker, so it loads without a connection. You can also install it from your browser's menu as an app.</p>
+      </details>
+      <details class="faq">
+        <summary>Was this written by AI?</summary>
+        <p>Yes. Regex Tester with Explanation was generated by Claude Code from a written specification inside an automated pipeline, with a test suite that runs in a real browser. The full source is on GitHub, so you can read every line before you trust it with your text.</p>
+      </details>
+      <!-- FAQ:END -->
+    </section>
+
+    <section class="container section" id="support">
+      <div class="support-card">
+        <h2 class="section__title">Built by one person, given away for free</h2>
+        <p>Regex Tester with Explanation is a free alternative to paid tools like regex101. If it earns a place in your bookmarks, a coffee keeps the updates coming.</p>
+        <a class="btn btn--kofi" href="https://ko-fi.com/leodavidai" rel="noopener">☕ Support Or on Ko-fi</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="site-footer__links">
+        <a href="https://github.com/turhe123/regex-tester-local" rel="noopener">Source on GitHub</a> ·
+        <a href="https://github.com/turhe123/regex-tester-local/issues" rel="noopener">Report a bug</a> ·
+        <a href="https://turhe123.github.io/web-tools/" rel="noopener">More free web tools</a> ·
+        <a href="https://ko-fi.com/leodavidai" rel="noopener">Ko-fi</a>
+      </p>
+      <p class="site-footer__disclosure"><strong>Built with AI.</strong> Regex Tester with Explanation was written by Claude Code inside an automated pipeline from a plain-English spec, as a clean-room implementation: no code or assets from any commercial product. It runs entirely in your browser, makes no network requests except an anonymous, cookieless page-view count, and has had less human review than hand-written software. Bug reports and pull requests are welcome.</p>
+      <p class="site-footer__copy">© 2026 Or Davidai Bachar · MIT License · <span id="sw-status" class="sw-status" aria-live="polite"></span></p>
+    </div>
+  </footer>
+
+  <script type="module" src="site.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
